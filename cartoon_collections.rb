@@ -1,7 +1,7 @@
 def greet_characters(array)
-  array.each do |characters_array|
-    puts "Hi #{characters_array}, how are you?"
-    
+  array.each do |element|
+    puts "Hello #{element}, how are you?"
+  end
 end
 
 def list_dwarves(array)
